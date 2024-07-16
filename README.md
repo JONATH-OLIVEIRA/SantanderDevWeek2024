@@ -1,6 +1,6 @@
 Projeto para a semana do desenvolvedor Santander, utlizando Java 17 e Springo boot, para desenvolver uma API e fazer a publicacao da mesma, utilizando Railway.
 
-'''marmaid 
+```mermaid 
 classDiagram
   class User {
     -String name
@@ -31,7 +31,7 @@ classDiagram
     -String icon
     -String description
   }
-  '''
+  ```
 
   User "1" *-- "1" Account
   User "1" *-- "N" Feature
