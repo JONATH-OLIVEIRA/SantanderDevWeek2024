@@ -51,6 +51,9 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <mainClass>me.dio.SantanderDevWeek2024Application</mainClass> <!-- Substitua pelo nome da sua classe principal -->
+                </configuration>
             </plugin>
         </plugins>
     </build>
