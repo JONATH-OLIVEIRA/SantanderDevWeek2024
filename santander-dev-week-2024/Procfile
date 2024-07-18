@@ -1,1 +1,1 @@
-web: java -jar santander-dev-week-2024-jar.jar
+web: java -jar ${project_loc:santander-dev-week-2024}/target/santander-dev-week-2024.jar
